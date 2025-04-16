@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="512" cy="512" r="460" fill="#4f46e5" />
+  
+  <!-- 待办列表纸张 -->
+  <rect x="312" y="262" width="400" height="500" rx="20" ry="20" fill="white" />
+  
+  <!-- 待办项1（已完成） -->
+  <rect x="352" y="342" width="320" height="60" rx="10" ry="10" fill="#e5e7eb" />
+  <circle cx="382" cy="372" r="15" fill="#10b981" />
+  <line x1="375" y1="372" x2="382" y2="379" stroke="white" stroke-width="4" stroke-linecap="round" />
+  <line x1="382" y1="379" x2="389" y2="365" stroke="white" stroke-width="4" stroke-linecap="round" />
+  <line x1="422" y1="372" x2="622" y2="372" stroke="#9ca3af" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- 待办项2（未完成） -->
+  <rect x="352" y="432" width="320" height="60" rx="10" ry="10" fill="#f3f4f6" />
+  <circle cx="382" cy="462" r="15" fill="#f3f4f6" stroke="#4f46e5" stroke-width="3" />
+  <line x1="422" y1="462" x2="622" y2="462" stroke="#1f2937" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- 待办项3（未完成） -->
+  <rect x="352" y="522" width="320" height="60" rx="10" ry="10" fill="#f3f4f6" />
+  <circle cx="382" cy="552" r="15" fill="#f3f4f6" stroke="#4f46e5" stroke-width="3" />
+  <line x1="422" y1="552" x2="622" y2="552" stroke="#1f2937" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- 标题线 -->
+  <line x1="352" y1="312" x2="672" y2="312" stroke="#4f46e5" stroke-width="6" stroke-linecap="round" />
+</svg> 
