@@ -8,6 +8,7 @@
 - 使用本地存储保存数据
 - 响应式设计，适配各种屏幕尺寸
 - 美观的用户界面
+- 自动记住窗口上次关闭时的大小和位置
 - 跨平台桌面应用，支持Windows、macOS和Linux
 
 ## 技术栈
@@ -17,6 +18,7 @@
 - TypeScript - 类型安全的JavaScript
 - Tailwind CSS - 样式库
 - Tauri - 桌面应用框架
+- tauri-plugin-window-state - 窗口状态记忆插件
 - localStorage - 本地数据存储
 
 ## 安装
@@ -62,5 +64,6 @@ npm run tauri:build
 - 前端使用Next.js开发
 - 桌面功能通过Tauri实现
 - 通过Tauri API可以访问本地系统功能
+- 使用 `tauri-plugin-window-state` 插件自动保存和恢复窗口状态。
 
 若要了解更多关于Tauri开发环境设置的信息，请参阅[SETUP_TAURI.md](./SETUP_TAURI.md)文件。 
